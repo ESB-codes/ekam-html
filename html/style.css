@@ -1,7 +1,128 @@
-h2{
-    color:red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-.a{
-    color: purple;
+:root {
+    --primary-color: #9333ea;
+    --grey: #d1d5db;
+    --offwhite: #f1f5f9
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.4em;
+    /* margin: 2rem */
+}
+
+.secondary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
+    color: white;
+}
+
+#primary-link {
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 0.4rem;
+    color: orange;
+
+}
+
+/* * lists * */
+
+.no-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0 rem 0.5rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    color: white;
+    padding: 1rem;
+}
+
+.navigation .link {
+    color: white;
+    /* text-align: right; */
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .navbrand {
+    font-weight: bold;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+    text-align: left;
+
+}
+
+.hero .hero-image {
+    width: 200px;
+    display: block;
+}
+
+.hero .hero-heading {
+    font-size: xx-large;
+    color: var(--grey);
+    text-align: right;
+
+}
+
+.hero .hero-heading .ekam {
+    color: var(--primary-color);
+}
+
+.section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow{
+    background-color: var(--offwhite);
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem; 
+    text-align: center;
+
+     color: white;
+}
+
+footer .link{
+    color: orange;
+}
+
+footer .footer-header{
+    font-weight: bold;
 }
